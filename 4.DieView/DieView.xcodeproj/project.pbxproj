@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F10B738E1B735A16005A8157 /* NSString+Drawing.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10B738D1B735A16005A8157 /* NSString+Drawing.swift */; };
+		F131F30A1B72F72500CBBAFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F131F3091B72F72500CBBAFB /* AppDelegate.swift */; };
+		F131F30C1B72F72500CBBAFB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F131F30B1B72F72500CBBAFB /* Images.xcassets */; };
+		F131F30F1B72F72500CBBAFB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F131F30D1B72F72500CBBAFB /* MainMenu.xib */; };
+		F131F31B1B72F72600CBBAFB /* DieViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F131F31A1B72F72600CBBAFB /* DieViewTests.swift */; };
+		F131F3261B72F75300CBBAFB /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F131F3241B72F75300CBBAFB /* MainWindowController.swift */; };
+		F131F3271B72F75300CBBAFB /* MainWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F131F3251B72F75300CBBAFB /* MainWindowController.xib */; };
+		F131F3291B72F77E00CBBAFB /* DieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F131F3281B72F77E00CBBAFB /* DieView.swift */; };
+		F168AE391B74CFAE001009C8 /* ConfigurationWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F168AE371B74CFAE001009C8 /* ConfigurationWindowController.swift */; };
+		F168AE3A1B74CFAE001009C8 /* ConfigurationWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F168AE381B74CFAE001009C8 /* ConfigurationWindowController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F131F3151B72F72600CBBAFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F131F2FC1B72F72500CBBAFB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F131F3031B72F72500CBBAFB;
+			remoteInfo = DieView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F10B738D1B735A16005A8157 /* NSString+Drawing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSString+Drawing.swift"; sourceTree = "<group>"; };
+		F131F3041B72F72500CBBAFB /* DieView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DieView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F131F3081B72F72500CBBAFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F131F3091B72F72500CBBAFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F131F30B1B72F72500CBBAFB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F131F30E1B72F72500CBBAFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		F131F3141B72F72600CBBAFB /* DieViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DieViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F131F3191B72F72600CBBAFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F131F31A1B72F72600CBBAFB /* DieViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DieViewTests.swift; sourceTree = "<group>"; };
+		F131F3241B72F75300CBBAFB /* MainWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainWindowController.swift; sourceTree = "<group>"; };
+		F131F3251B72F75300CBBAFB /* MainWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindowController.xib; sourceTree = "<group>"; };
+		F131F3281B72F77E00CBBAFB /* DieView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DieView.swift; sourceTree = "<group>"; };
+		F168AE371B74CFAE001009C8 /* ConfigurationWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConfigurationWindowController.swift; path = ../ConfigurationWindowController.swift; sourceTree = "<group>"; };
+		F168AE381B74CFAE001009C8 /* ConfigurationWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ConfigurationWindowController.xib; path = ../ConfigurationWindowController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F131F3011B72F72500CBBAFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F131F3111B72F72600CBBAFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F131F2FB1B72F72500CBBAFB = {
+			isa = PBXGroup;
+			children = (
+				F131F3061B72F72500CBBAFB /* DieView */,
+				F131F3171B72F72600CBBAFB /* DieViewTests */,
+				F131F3051B72F72500CBBAFB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F131F3051B72F72500CBBAFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F131F3041B72F72500CBBAFB /* DieView.app */,
+				F131F3141B72F72600CBBAFB /* DieViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F131F3061B72F72500CBBAFB /* DieView */ = {
+			isa = PBXGroup;
+			children = (
+				F131F3091B72F72500CBBAFB /* AppDelegate.swift */,
+				F131F3241B72F75300CBBAFB /* MainWindowController.swift */,
+				F131F3281B72F77E00CBBAFB /* DieView.swift */,
+				F10B738D1B735A16005A8157 /* NSString+Drawing.swift */,
+				F168AE371B74CFAE001009C8 /* ConfigurationWindowController.swift */,
+				F168AE381B74CFAE001009C8 /* ConfigurationWindowController.xib */,
+				F131F3251B72F75300CBBAFB /* MainWindowController.xib */,
+				F131F30D1B72F72500CBBAFB /* MainMenu.xib */,
+				F131F3071B72F72500CBBAFB /* Supporting Files */,
+			);
+			path = DieView;
+			sourceTree = "<group>";
+		};
+		F131F3071B72F72500CBBAFB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F131F30B1B72F72500CBBAFB /* Images.xcassets */,
+				F131F3081B72F72500CBBAFB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F131F3171B72F72600CBBAFB /* DieViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				F131F31A1B72F72600CBBAFB /* DieViewTests.swift */,
+				F131F3181B72F72600CBBAFB /* Supporting Files */,
+			);
+			path = DieViewTests;
+			sourceTree = "<group>";
+		};
+		F131F3181B72F72600CBBAFB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F131F3191B72F72600CBBAFB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F131F3031B72F72500CBBAFB /* DieView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F131F31E1B72F72600CBBAFB /* Build configuration list for PBXNativeTarget "DieView" */;
+			buildPhases = (
+				F131F3001B72F72500CBBAFB /* Sources */,
+				F131F3011B72F72500CBBAFB /* Frameworks */,
+				F131F3021B72F72500CBBAFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DieView;
+			productName = DieView;
+			productReference = F131F3041B72F72500CBBAFB /* DieView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F131F3131B72F72600CBBAFB /* DieViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F131F3211B72F72600CBBAFB /* Build configuration list for PBXNativeTarget "DieViewTests" */;
+			buildPhases = (
+				F131F3101B72F72600CBBAFB /* Sources */,
+				F131F3111B72F72600CBBAFB /* Frameworks */,
+				F131F3121B72F72600CBBAFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F131F3161B72F72600CBBAFB /* PBXTargetDependency */,
+			);
+			name = DieViewTests;
+			productName = DieViewTests;
+			productReference = F131F3141B72F72600CBBAFB /* DieViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F131F2FC1B72F72500CBBAFB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = fancy;
+				TargetAttributes = {
+					F131F3031B72F72500CBBAFB = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					F131F3131B72F72600CBBAFB = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = F131F3031B72F72500CBBAFB;
+					};
+				};
+			};
+			buildConfigurationList = F131F2FF1B72F72500CBBAFB /* Build configuration list for PBXProject "DieView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F131F2FB1B72F72500CBBAFB;
+			productRefGroup = F131F3051B72F72500CBBAFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F131F3031B72F72500CBBAFB /* DieView */,
+				F131F3131B72F72600CBBAFB /* DieViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F131F3021B72F72500CBBAFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F131F30C1B72F72500CBBAFB /* Images.xcassets in Resources */,
+				F131F3271B72F75300CBBAFB /* MainWindowController.xib in Resources */,
+				F168AE3A1B74CFAE001009C8 /* ConfigurationWindowController.xib in Resources */,
+				F131F30F1B72F72500CBBAFB /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F131F3121B72F72600CBBAFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F131F3001B72F72500CBBAFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F10B738E1B735A16005A8157 /* NSString+Drawing.swift in Sources */,
+				F131F3261B72F75300CBBAFB /* MainWindowController.swift in Sources */,
+				F168AE391B74CFAE001009C8 /* ConfigurationWindowController.swift in Sources */,
+				F131F30A1B72F72500CBBAFB /* AppDelegate.swift in Sources */,
+				F131F3291B72F77E00CBBAFB /* DieView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F131F3101B72F72600CBBAFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F131F31B1B72F72600CBBAFB /* DieViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F131F3161B72F72600CBBAFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F131F3031B72F72500CBBAFB /* DieView */;
+			targetProxy = F131F3151B72F72600CBBAFB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F131F30D1B72F72500CBBAFB /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F131F30E1B72F72500CBBAFB /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F131F31C1B72F72600CBBAFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F131F31D1B72F72600CBBAFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F131F31F1B72F72600CBBAFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DieView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fancymax.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F131F3201B72F72600CBBAFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DieView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fancymax.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F131F3221B72F72600CBBAFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DieViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fancymax.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DieView.app/Contents/MacOS/DieView";
+			};
+			name = Debug;
+		};
+		F131F3231B72F72600CBBAFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DieViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fancymax.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DieView.app/Contents/MacOS/DieView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F131F2FF1B72F72500CBBAFB /* Build configuration list for PBXProject "DieView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F131F31C1B72F72600CBBAFB /* Debug */,
+				F131F31D1B72F72600CBBAFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F131F31E1B72F72600CBBAFB /* Build configuration list for PBXNativeTarget "DieView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F131F31F1B72F72600CBBAFB /* Debug */,
+				F131F3201B72F72600CBBAFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F131F3211B72F72600CBBAFB /* Build configuration list for PBXNativeTarget "DieViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F131F3221B72F72600CBBAFB /* Debug */,
+				F131F3231B72F72600CBBAFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F131F2FC1B72F72500CBBAFB /* Project object */;
+}
