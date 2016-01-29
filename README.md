@@ -1,5 +1,5 @@
 # Cocoa Learning(Swift)
-This is some demo come from the book 「Cocoa Programming for Mac OS X」 , and I will add more here.
+These are some demos come from the book 「Cocoa Programming for Mac OS X」 , and I will add more here.
 
 # RandomPassword
 Maybe your first Cocoa Program, use it to understand the MVC structrue.
